@@ -4,8 +4,8 @@
 }
 .holder {
 	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap-reverse;
+	flex-direction: row;
+	flex-wrap: wrap;
 	width: 100vw;
 	justify-content: space-between
 }
