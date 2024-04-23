@@ -1,2 +1,30 @@
+*{
+	margin: 0px;
+	padding: 0px
+}
+.holder {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap-reverse;
+	width: 100vw;
+	justify-content: space-between
+}
 
-/* Your CSS Code here. */
+.item {
+	width: 200px;
+	height: 200px;
+	font-size: 50px;
+	color: black
+}
+
+#blue {
+	background-color: blue;
+}
+
+#green {
+	background-color: green;
+}
+
+#red {
+	background-color: red;
+}
